@@ -5,6 +5,7 @@ on:
     branches: [ con-wrappers ]
   pull_request:
     branches: [ con-wrappers ]
+  workflow_dispatch:
 
 jobs:
   build:
